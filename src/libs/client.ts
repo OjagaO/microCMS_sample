@@ -1,4 +1,5 @@
 import { createClient } from 'microcms-js-sdk';
+import { MicroCMSClient } from '../../types/types'
 
 const apiKey: string = process.env.API_KEY ?? "";
 
