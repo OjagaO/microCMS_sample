@@ -833,6 +833,7 @@
 
 .ft_list {
     display: flex;
+    list-style: none;
 }
 
 .copyright {
@@ -895,7 +896,7 @@
     .open_hd {
         position: fixed;
         top: 0;
-        /* right: -120%; */
+        right: -120%;
         width: 100vw;
         height: 100vh;
         padding: 16px;
@@ -904,7 +905,7 @@
         z-index: 999;
     }
 
-    .open_hd.swich {
+    .open_hd.switch {
         right: 0;
     }
 
@@ -937,7 +938,7 @@
         right: -50px;
     }
 
-    .open_hd.swich::after {
+    .open_hd.switch::after {
         padding: 16px;
         transform: scale(800);
         opacity: 1;
@@ -950,7 +951,7 @@
         margin-top: 10vh;
     }
 
-    .open_title.swich {
+    .open_title.switch {
         animation-name: fadeAnime;
         animation-duration: 1.2s;
     }
@@ -960,7 +961,7 @@
         margin-top: 32px;
     }
 
-    .open_list.swich {
+    .open_list.switch {
         animation-name: fadeAnime;
         animation-duration: 1.5s;
     }
@@ -970,6 +971,7 @@
         text-align: right;
         border-bottom: 1px solid black;
         margin-left: 20vw;
+        list-style: none;
     }
 
     .open_list a {
@@ -1025,26 +1027,26 @@
         stroke-dashoffset: 0px;
     }
 
-    .swich .line {
+    .switch .line {
         transition: stroke-dasharray 500ms, stroke-dashoffset 500ms, transform 500ms;
     }
 
-    .swich.plate1 .line1 {
+    .switch.plate1 .line1 {
         transform: scale(0, 1);
         transition: transform 500ms 100ms;
     }
 
-    .swich.plate1 .line2 {
+    .switch.plate1 .line2 {
         stroke-dasharray: 5px 200;
         stroke-dashoffset: -164px;
     }
 
-    .swich.plate1 .line3 {
+    .switch.plate1 .line3 {
         stroke-dasharray: 5px 179;
         stroke-dashoffset: -142px;
     }
 
-    .swich .x {
+    .switch .x {
         transform: scale(1);
         transition: transform 400ms 350ms;
     }

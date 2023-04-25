@@ -253,46 +253,6 @@ const Main = () => {
           </section>
         </div>
       </div>
-      <div className={styles.bl_bg}>
-        <div className={styles.inner}>
-          <section id="blog" className={styles.bl_area}>
-            <div className={styles.bl_title}>
-              <h2>BLOG</h2>
-              <p>ブログ</p>
-            </div>
-            <div className={styles.bl_content}>
-              <a href="" className={styles.bl_box}>
-                <div className={styles.bl_img}>
-                  <img src="./images/model2.png" alt="" />
-                </div>
-                <div className={styles.bl_lower}>
-                  <h3>垢抜けたい時に意識すること</h3>
-                  {/* <!-- timeタグの属性datepublished（公開日） or datemodified（編集日） --> */}
-                  <time>2022/12/01</time>
-                </div>
-              </a>
-              <a href="" className={styles.bl_box}>
-                <div className={styles.bl_img}>
-                  <img src="./images/haircut2.png" alt="" />
-                </div>
-                <div className={styles.bl_lower}>
-                  <h3>相性の良い美容師の探し方</h3>
-                  <time>2022/11/01</time>
-                </div>
-              </a>
-              <a className={styles.bl_box}>
-                <div className={styles.bl_img}>
-                  <img src="./images/hair2.png" alt="" />
-                </div>
-                <div className={styles.bl_lower}>
-                  <h3>10月最新人気ヘアスタイル</h3>
-                  <time>2022/10/01</time>
-                </div>
-              </a>
-            </div>
-          </section>
-        </div>
-      </div>
       <div className={styles.rv_bg}>
         <div className={styles.inner}>
           <section id="reserve" className={styles.rv_area}>
